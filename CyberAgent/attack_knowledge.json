@@ -1,0 +1,28 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "status": "Devam Ediyor",
+            "details": "Sırayla tüm vektörleri deneyeceğiz.\n[SONRAKİ PLAN]: Tüm vektörleri sırayla deneyeceğiz.",
+            "id": "Tüm Vektörler"
+        },
+        {
+            "status": "Devam Ediyor",
+            "details": "Brute-Force vektörü denendi.\n[SONRAKİ PLAN]: SQLi Escalation vektörü denenecek.",
+            "id": "1"
+        },
+        {
+            "status": "Devam Ediyor",
+            "details": "SQLi Escalation vektörü denendi.\n[SONRAKİ PLAN]: Exploit vektörü denenecek.",
+            "id": "2"
+        },
+        {
+            "status": "Başarılı",
+            "details": "Exploit vektörü denendi.\n[SONRAKİ PLAN]: Tüm vektörleri sırayla deneyeceğiz.",
+            "id": "3"
+        }
+    ],
+    "links": []
+}

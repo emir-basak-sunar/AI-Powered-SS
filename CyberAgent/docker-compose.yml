@@ -1,0 +1,12 @@
+services:
+  cyber_tools:
+    build:
+      context: ./tools
+    container_name: cyber_agent_toolkit
+    restart: unless-stopped
+    # Pentest araçlarının ağ taraması gibi işlemleri sorunsuz yapabilmesi için:
+    network_mode: "bridge"
+    # Kernel yetenekleri, özellikle nmap/masscan için SYN taramalarında
+    cap_add:
+      - NET_RAW
+      - NET_ADMIN
